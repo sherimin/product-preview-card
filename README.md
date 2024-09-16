@@ -14,26 +14,26 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
+### The challenge
+This [product preview card component challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub) is to build out this product preview card component and get it looking as close to the design as possible. The users will be able to view the optimal layout depending on their device's screen size, and see hover and focus states for interactive elements
+
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<p align="center">
+<img width="1393" alt="Screenshot 2024-09-16 at 11 18 32 AM" src="https://github.com/user-attachments/assets/58d3ff6f-6ca8-4bde-86b3-a7c46e558ead">
+  <br />
+<strong>Desktop Design</strong>
+<br />
+<img width="375" alt="Screenshot 2024-09-16 at 11 18 10 AM" src="https://github.com/user-attachments/assets/7d96f0ce-1a7c-4532-aa60-4f949329a70b">
+  <br />
+<strong>Mobile Design</strong>
+</p>
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/sherimin/product-preview-card)
-- Live Site URL: [Live Site](https://sherimin.github.io/product-preview-card/)
+- Solution: [GitHub Repo](https://github.com/sherimin/product-preview-card)
+- Live Site: [Live Site](https://sherimin.github.io/product-preview-card/)
 
 ## My process
 
@@ -47,29 +47,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project, I strengthened my knowledge of text styling, with a focus on text decoration, line height, letter spacing, and word spacing: 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
+p {
+    line-height: 23px;
+    letter-spacing: 14;
+    word-spacing: 1px;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+```
+.price-regular{
+    text-decoration-line: line-through;
+}
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Useful resources
 
@@ -79,4 +72,4 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ## Author
 
 - Website - [Sheri Lu](https://www.sherilu.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@sherimin](https://www.frontendmentor.io/profile/sherimin)
