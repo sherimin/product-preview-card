@@ -63,7 +63,7 @@ small {
     text-transform: uppercase;
 }
 h1 {
-    font: var(--Fraunces);
+    font-family: var(--Fraunces);
     font-size: 2rem;
     line-height: 32px;
     font-weight: 700;
@@ -77,13 +77,13 @@ p {
     line-height: 23px;
     letter-spacing: 14;
     word-spacing: 1px;
-    padding-top: 20px;
+    padding-top: 24px;
 }
 .price-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2rem 0;
+    padding: 1.875rem 0;
     gap: 1rem;
 }
 .price-discounted {
@@ -101,6 +101,7 @@ p {
     font-family: var(--Montserrat);
     font-size: 13px;
     word-spacing: 1px;
+    margin-left: 3px;
 }
 
 button {
@@ -111,7 +112,7 @@ button {
     background-color: var(--primary-dark-cyan);
     color: var(--white);
     font: var(--Montserrat);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -119,7 +120,7 @@ button {
     font-family: var(--Montserrat);
     gap: 11px;
     border: none;
-    padding: 1rem 0;
+    padding: 0.6rem 0;
 }
 
 button:hover {
@@ -129,4 +130,61 @@ button:hover {
 .cart-icon {
     max-height: 16px;
     width: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100vh;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        width: 343px;
+        height: auto;
+        display: block;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .info-container {
+        width: 343px;
+        height: 366px;
+        border-radius: 0 0 10px 10px;
+        padding: 1rem;
+    }
+
+    small {
+        padding-left: 0.3rem;
+        padding-bottom: 0;
+    }
+
+    h1 {
+        padding: 0 0.3rem 0 0.3rem;
+        margin-top: 12px;
+    }
+
+    p {
+        padding: 0.4rem;
+        margin-top: 10px;
+    }
+
+    .price-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 0 1rem 0.3rem;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0 5px 0;
+    }
 }
